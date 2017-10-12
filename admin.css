@@ -1,0 +1,476 @@
+img {
+	width: 100%;
+    height: auto;
+}
+body::-webkit-scrollbar {
+    width: 15px;
+    background-color: #F5F5F5;
+} 
+body::-webkit-scrollbar-thumb {
+    background-color: #000000;
+}
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+
+
+
+/**  STYLE 6 */
+
+
+.middle_text {
+	
+	position: relative;
+top: 50%;
+transform: translateY(-50%); 
+	
+	
+}
+.middle_text_footer {
+	
+	position: relative;
+top: 20%;
+transform: translateY(-20%); 
+	
+	
+}
+
+
+
+
+.head_bg {
+	background-image:url('./pics/bg.jpg');
+	height:7em;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	color:white;
+	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.header_top {
+	
+	height:92%;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.navbar {
+	min-height:8%;
+}
+
+.weird_text {
+	
+text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
+                 10px 20px 5px rgba(0,0,0,0.05),
+                 -10px 20px 5px rgba(0,0,0,0.05);
+
+}
+h1 > a {
+	color:white;
+	transition:all 0.2s ease;
+	
+}
+h1 > a:hover {
+	color:white;
+text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+text-decoration:none;
+transition:all 0.2s ease;
+
+}
+.head_cen_text {
+	
+
+text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+	
+}
+.vert_this {
+	vertical-align:middle;
+}
+.cheat {
+	padding-top:0.7em;
+	
+}
+.loop_img img {
+		border:3px solid white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom:40px;
+	text-align:center;
+	background-color:white;
+	
+}
+.thumb {
+	
+		border:3px solid white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-right:35px;
+	background-color:white;
+}
+.thumb3 {
+	
+		border:3px solid white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+	background-color:white;
+}
+.thumb4 {
+	
+		border:3px solid white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+	background-color:white;
+}
+.thumb2 {
+	
+	border:3px solid white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin:50px 20px;
+	background-color:white;
+}
+.fixed-middle {
+	position: fixed;
+    right: 0;
+    bottom: 20%;
+    left: 0;
+
+}
+.container-middle-me{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+	height:100vh;
+
+}
+.bgmo {
+	background-image:url('./pics/cloud.jpg');
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ---- grid ---- */
+
+.grid {
+
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-sizer {
+
+}
+.grid-item {
+  width: 33.333%;
+}
+
+.grid-item {
+  float: left;
+  margin-bottom: 20px;
+  border:3px solid white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.grid-item-no  {
+  float: left;
+  margin-bottom: 0 !important;
+  border:0 !important;
+	box-shadow: none !important;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+}
+.carousel-inner{
+	height:40%;
+	min-width:100vw;
+	
+}
+
+.shit {
+
+}
+.hidden_me {
+	padding-top:70vh;
+
+	
+}
+.hidden_me2 {
+	top:30vh;
+	
+	
+}
+.shit4 {
+	height:40vh;
+	
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.shit2 {
+	height:40vh;
+	position:relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.shit3 {
+	height:50%;
+	position:relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vert-text {
+	writing-mode: tb-rl;
+
+}
+.relative_me {
+	overflow:hidden;
+	position:relative;
+	max-width:100;
+}
+.bh-index {
+	display: table-cell;
+	position:absolute;
+	top:90%;
+    color: white;
+
+    height: 100%;
+
+
+	
+}
+.direct {
+	direction: rtl;
+}
+.footer-boy2 {
+position: fixed;
+    
+    bottom: 0;
+    width: 100%;
+}
+.bh2 {
+
+	direction: rtl;
+    position: absolute;
+    top: 40%;
+    right: 5px;
+	
+
+	
+}
+.bh {
+	display: table-cell;
+	position:absolute;
+	top:80%;
+    color: white;
+    width: 100%;
+    height: 100%;
+
+    vertical-align: bottom;
+	
+}
+
+
+/* default styles here for older browsers. 
+       I tend to go for a 600px - 960px width max but using percentages 
+	   
+	   https://benfrain.com/position-sticky-is-back-but-it-has-issues
+	   
+	   
+	   */
+    
+    @media only screen and (min-width:960px){
+
+		.sticky2 {
+			
+					display:none;
+
+			
+		}
+    }
+    @media only screen and (min-width:1440px){
+		.sticky {
+			position: sticky;
+			top: 15%;
+			bottom:10%;
+			max-height:100vh;
+			height:100%;
+
+		}
+		.sticky2 {
+	
+				position: sticky;
+			top: 15%;
+			bottom:10%;
+
+	
+}
+    }
+    @media only screen and (min-width:2000px){
+		.sticky {
+			position: sticky;
+			top: 15%;
+			bottom:10%;
+			max-height:100vh;
+			height:100%;
+
+		}
+		.sticky2 {
+	
+				position: sticky;
+			top: 15%;
+			bottom:10%;
+
+	
+}
+		
+    }
+    @media only screen and (max-device-width:480px){
+
+    }
+    @media only screen and (device-width:768px){
+
+    }
+
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+
+    }
+
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+
+    }
+.bg-blue {
+
+	/*background-color:#32a0da !important;*/
+}
+.navbar {
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+
+.bg-blue {
+    background: rgb(68, 68, 68); /* IE */
+    background: rgba(0, 0, 0, 1); /* NON-IE */
+}
+	
+.logo {
+	margin-top:-30%;
+	
+}
+.footer-me {
+	background-color:rgba(42,42,42,0.3);
+
+
+	
+}
+.col-img {
+	min-height:200px;
+	height:200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nourl:hover {
+	text-decoration:none;
+	
+}
+.nourl {
+	text-decoration:none;
+	
+}
+.nourl p {
+	color:black;
+}
+.nourl row:hover {
+	background:black;
+}
+.100this {
+	max-width:100vw;
+	overflow:hidden;
+}
+.info_overflow {
+	
+	height:10em;
+	
+}
+.bh p {
+  line-height:1.2em;
+  height:1.2em;
+  overflow:hidden;
+  width:50%;
+}
+p {
+  line-height:1.2em;
+  height:3.6em;
+  overflow:hidden;
+}
+.fill { 
+    min-height: 100%;
+    height: 100%;
+	max-height:100vh;
+}
+.border-right {
+  border-right: 1px solid #333;
+  	right:15px;
+	padding-left:30px;
+}
+.footer-me-index {
+
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	   -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+.divider {
+	
+	    /* The image used */
+    background-image: url("./pics/bg.jpg");
+
+    /* Full height */
+    height: 20%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+
+	margin-bottom:5em;
+	border-bottom:2px solid white;
+	border-top:2px solid white;
+	box-shadow: 2px 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.divider h1 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+
+}
