@@ -45,7 +45,7 @@ $result = mysqli_query($mysqli, $sql2);
 		<hr>
 		<a href="admin.php">Home</a><br>
 		<a href="admin3.php">Add Shop</a><br>
-		<a href="admin.php">Add Admin</a>
+		<a href="add_admin.php">Add Admin</a>
 		<hr>
 		
 		</div>
